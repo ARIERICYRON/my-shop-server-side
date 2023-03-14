@@ -5,8 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+=beginputs "seeding"
 
-=beginproducts = Product.create([{image_url:"https://media.istockphoto.com/id/521210524/photo/set-of-bottles-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=FErgnfGEkT05VP3zcbIejUsYaxIpDDSV5BY7XIEM5Do=", sku:"ABCD1230", name:"Wine", price:25 },
+products = Product.create([{image_url:"https://media.istockphoto.com/id/521210524/photo/set-of-bottles-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=FErgnfGEkT05VP3zcbIejUsYaxIpDDSV5BY7XIEM5Do=", sku:"ABCD1230", name:"Wine", price:25 },
 {image_url:"https://www.dreamstime.com/professinal-road-bicycle-racer-isolated-motion-white-image113569427", sku:"ABCD1234", name:"bicycle", price:800 },
 {image_url:"https://www.shutterstock.com/image-photo/tv-flat-screen-lcd-plasma-260nw-314401364.jpg", sku:"ABCD1235", name:"Television", price:250},
 {image_url:"https://media.istockphoto.com/id/1326631366/photo/phase-neutral-and-ground-isolated-on-white-background-closeup.jpg?b=1&s=170667a&w=0&k=20&c=7cCkoXsP3F611GCKhJj_-4UZ06LvYXK5jBxuyz5lJX0=", sku:"ABCD1236", name:"Cable Wire", price:70},
@@ -34,10 +35,11 @@
 {image_url:"https://media.gettyimages.com/id/136706173/photo/a-lenovo-group-ltd-ideapad-yoga-a-touchscreen-clamshell-computer-which-flips-completely-over.jpg?s=612x612&w=gi&k=20&c=33ysXHxOwvLNlkQtdkvP0ghWoJAfZYwWKVFEXnRqN_c=", sku:"ABCD1257", name:"Lenovo Screen", price:1500 },
 {image_url:"https://paultan.org/image/2014/10/E12-141010-15-630x354.jpg", sku:"ABCD1258", name:"Nissan Note", price:7500},
 {image_url:"https://i.pcmag.com/imagery/reviews/038Dr5TVEpwIv8rCljx6UcF-14.fit_scale.size_760x427.v1588802180.jpg", sku:"ABCD1259", name:"Macbook pro 2020", price:2000},
-{image_url:"https://media.ed.edmunds-media.com/land-rover/range-rover-sport/2020/oem/2020_land-rover_range-rover-sport_4dr-suv_p400-hst_fq_oem_1_815.jpg", sku:"ABCD1260", name:"Range Rover", price:75,000},
+{image_url:"https://media.ed.edmunds-media.com/land-rover/range-rover-sport/2020/oem/2020_land-rover_range-rover-sport_4dr-suv_p400-hst_fq_oem_1_815.jpg", sku:"ABCD1260", name:"Range Rover", price:75000},
 {image_url:"https://robbreport.com/wp-content/uploads/2020/12/A5-Kobe-strip-steak.jpg", sku:"ABCD1261", name:"Wagyu stake", price:95},
 {image_url:"https://media.istockphoto.com/id/157568993/photo/three-bell-peppers-a-red-a-yellow-and-an-orange-one.jpg?b=1&s=170667a&w=0&k=20&c=bgg9MxD4kVH7HCIUhvjCksytuCWJV5ztD0uh4ftSp7c=", sku:"ABCD1262", name:"Bell papers", price:60 },
 {image_url:"https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/T/U/171695_1593709385.jpg", sku:"ABCD1262", name:"10 Kg Rice", price:500 },
 {image_url:"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61XSlDa7quL._SL1500_.jpg", sku:"ABCD1263", name:"1Kg Onion", price:25},
 ])
+puts "completed"
 ==end
